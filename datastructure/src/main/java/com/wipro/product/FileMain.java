@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 import java.util.List;
 
 public class FileMain {
-	
+
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 		ProductService service = new ProductServiceImpl();
@@ -17,12 +17,13 @@ public class FileMain {
 			int choice = Integer.parseInt(reader.readLine());
 			switch (choice) {
 			case 1:
-				Product product = new Product();
-				BufferedReader bufReader=new BufferedReader(new FileReader("product.csv"));
-				String line="";
-				while((line=bufReader.readLine())!= null) {
+
+				BufferedReader bufReader = new BufferedReader(new FileReader("product.csv"));
+				String line = "";
+				while ((line = bufReader.readLine()) != null) {
+					Product product = new Product();
 					System.out.println("--" + line);
-					String[] split=line.split(",");
+					String[] split = line.split(",");
 					product.setId(Integer.parseInt(split[0]));
 					product.setName(split[1]);
 					product.setPrice(Double.parseDouble(split[2]));
@@ -33,10 +34,10 @@ public class FileMain {
 					} else {
 						System.out.println("Product Failed to Add");
 					}
-					
+
 				}
 				bufReader.close();
-					break;
+				break;
 			case 2:
 				List<Product> list = service.getAllProductDetailList();
 				if (list.isEmpty()) {
