@@ -17,8 +17,7 @@ public class FileMain {
 			int choice = Integer.parseInt(reader.readLine());
 			switch (choice) {
 			case 1:
-
-				BufferedReader bufReader = new BufferedReader(new FileReader("product.csv"));
+     			BufferedReader bufReader = new BufferedReader(new FileReader("product.csv"));
 				String line = "";
 				while ((line = bufReader.readLine()) != null) {
 					Product product = new Product();
