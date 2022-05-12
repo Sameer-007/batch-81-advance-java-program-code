@@ -1,0 +1,19 @@
+  /* Element Selector */
+  
+  p {
+      font-size: 20px;
+      border: 2px solid green;
+      color: red;
+  }
+  /* Id Selector */
+  
+  #paraOne {
+      color: brown;
+      border: 2px dotted red;
+  }
+  /* Class selector */
+  
+  .pTwo {
+      color: blue;
+      border: 2px solid blue;
+  }
