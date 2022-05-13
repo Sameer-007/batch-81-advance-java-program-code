@@ -1,0 +1,34 @@
+div p {
+    font-size: 20px;
+    transition: all;
+    transition-duration: 4s;
+    transition-delay: 2s;
+}
+
+.image img {
+    transition: all;
+    transition-duration: 4s;
+    transition-delay: 2s;
+}
+
+.image img:hover {
+    transform: rotate(360deg);
+}
+
+div p:hover {
+    font-size: 30px;
+}
+
+@media screen and (max-width: 568px) {
+    div p {
+        font-size: 50px;
+        background-color: yellow;
+    }
+}
+
+@media (min-width: 800px) and (max-width:1000px) {
+    div p {
+        font-size: 30px;
+        background-color: cadetblue;
+    }
+}

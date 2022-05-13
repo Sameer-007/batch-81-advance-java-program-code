@@ -1,0 +1,29 @@
+.header-container {
+    border-bottom: 2px solid blue
+}
+
+.nav-link:hover {
+    color: blue !important;
+    padding: 5px;
+    border-radius: 5px;
+    color: red;
+    background-color: cornflowerblue;
+}
+
+.nav-item {
+    padding: 20px;
+}
+
+.footer-container {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: red;
+    background-color: black;
+    text-align: center;
+}
+
+.footer-container p {
+    padding-top: 10px;
+}

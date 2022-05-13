@@ -1,0 +1,13 @@
+.header-container div {
+    border: 2px solid red;
+    text-align: center;
+    text-decoration: underline;
+    color: green;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
