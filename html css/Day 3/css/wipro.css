@@ -14,10 +14,33 @@
     padding: 20px;
 }
 
+.tech-container {
+    height: 140vh;
+}
+
+.contact-container {
+    height: 50vh;
+    border: 2px solid red;
+}
+
+.social-media-icons i {
+    font-size: 30px;
+    padding: 1px;
+}
+
+.card img {
+    height: 100px;
+    width: 100px;
+}
+
+.social-media-icons i:hover {
+    font-size: 50px;
+    border-radius: 5px;
+    background-color: yellow;
+    transform: rotate(180deg);
+}
+
 .footer-container {
-    position: fixed;
-    left: 0;
-    bottom: 0;
     width: 100%;
     color: red;
     background-color: black;
