@@ -1,0 +1,17 @@
+HTML / CSS  / Bootstrap : Static Webpages 
+WebSite vs Webpages
+
+Javascript : Programming language runs on browser
+
+Chrome Browser : V8 Javascript Engine
+
+-- Client Side Scripting language ---
+
+
+V8 JS engine + C++  ==> node Js
+Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+--Server Side Programming language -----
+
+
+ECMAScript -> Creates Standards for Language
+ES6 Version
