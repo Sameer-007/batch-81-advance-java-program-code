@@ -1,0 +1,16 @@
+{
+    "name": "typescript",
+    "type": "module",
+    "version": "1.0.0",
+    "description": "demo for javascript modules",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha"
+    },
+    "author": "sathish G",
+    "license": "ISC",
+    "dependencies": {
+        "chai": "^4.3.6",
+        "mocha": "^10.0.0"
+    }
+}
